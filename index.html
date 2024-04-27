@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaz Vaxtları</title>
+    <link rel="shortcut icon" href="./assets/images/6565368.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Namaz Vaxtları</h1>
+        <select id="month">
+            <option value="1">Yanvar</option>
+            <option value="2">Fevral</option>
+            <option value="3">Mart</option>
+            <option value="4">Aprel</option>
+            <option value="5">May</option>
+            <option value="6">İyun</option>
+            <option value="7">İyul</option>
+            <option value="8">Avqust</option>
+            <option value="9">Sentyabr</option>
+            <option value="10">Oktyabr</option>
+            <option value="11">Noyabr</option>
+            <option value="12">Dekabr</option>
+        </select>
+        <button onclick="getMonthlyPrayerTimes()">Aylıq</button>
+        <button onclick="getDailyPrayerTimes()">Gündəlik</button>
+        <ul id="prayerTimes"></ul>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/weather-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/weather.css">
+  <title>Hava Proqnozu</title>
+</head>
+
+<body>
+  <header>
+    <h1>Weather App</h1>
+  </header>
+  <div class="container">
+    <form id="weatherForm">
+      <input type="text" id="cityInput" placeholder="Şəhər">
+      <button type="submit">Axtar</button>
+      <div class="temp-selector">
+        <input type="radio" id="celsius" name="temp" value="c" checked>
+        <label for="celsius"><span>Celsius</span></label>
+        <input type="radio" id="fahrenheit" name="temp" value="f">
+        <label for="fahrenheit"><span>Fahrenheit</span></label>
+      </div>
+    </form>
+    <div id="weatherInfo" class="weather-container"></div>
+  </div>
+
+
+
+  <script src="./assets/js/weather.js"></script>
+</body>
+
+</html>
