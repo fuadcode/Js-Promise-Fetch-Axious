@@ -5,7 +5,7 @@ document.getElementById("weatherForm").addEventListener("submit", function (even
 
 function searchWeather() {
   let city = document.getElementById("cityInput").value;
-  let unit = document.querySelector('input[name="temp"]:checked').value;
+  let unit = document.querySelector('input:checked').value;
   let apiKey = "6bc15cfb31414fbda9f95625221905";
   let url = "https://api.weatherapi.com/v1/current.json?key=" + apiKey + "&q=" + city;
 
